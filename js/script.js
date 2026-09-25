@@ -12,10 +12,10 @@ const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 const savedTheme = localStorage.getItem('theme');
 const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
 const phrases = [
-  'desenvolvimento web e desktop.',
-  'Java, PHP, Laravel e MySQL.',
-  'banco de dados e suporte técnico.',
-  'projetos em equipe.'
+  'PHP, Joomla e sistemas web.',
+  'JavaScript, HTML, CSS e interfaces responsivas.',
+  'MySQL e banco de dados.',
+  'projetos corporativos e manutenção.'
 ];
 const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const backToTop = document.querySelector('.back-to-top');
